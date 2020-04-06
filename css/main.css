@@ -140,12 +140,11 @@ p {
 }
 
 img {
-
+  width:100%;
 }
 
 figure {
-
-}
+  margin: 0;
 
 address {
   font-style: normal;
@@ -279,6 +278,21 @@ features p {
 }
 .contact-content p {
   margin: 0;
+}
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /*******FAQ Page*******/
 .faq {
