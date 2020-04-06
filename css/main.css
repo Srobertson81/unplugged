@@ -106,6 +106,8 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
+  text-align: left;
 }
 
 ul,
@@ -120,12 +122,14 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 1.875em;
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   margin: 20px 0;
   font-size: 1.125em;
 }
@@ -416,7 +420,10 @@ features p {
     display: none;
   }
   /* Hero Area */
-
+  .hero-area {
+    background: url('img/image.jpg') center no-repeat #333;
+    background-size: cover;
+  }
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
@@ -447,9 +454,9 @@ features p {
     justify-content: space-between;
   }
 
-    .reviews article div {
-      width: 49%;
-    }
+ .reviews article div {
+    width: 49%;
+  }
   /*Footer*/
   footer .content-wrapper {
     width: 65%;
